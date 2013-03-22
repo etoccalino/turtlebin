@@ -14,22 +14,22 @@ This tutorial guides you through the process of getting Turtlebin working on you
 
 * Creating catkin workspace:
 
+```bash
 	cd ~/ 
 	mkdir -p ros/src ; cd ros/src/
-	catkin_init_workspace 
-	Getting packages from sources:
+	catkin_init_workspace
+```
 
-* Getting and building additional neede repositories:
+* Getting and building additional needed repositories:
 
-        cd ~/ros/src/
+```bash
+	cd ~/ros/src/
 
 	git clone git@github.com:adamantivm/turtlebin.git src/turtlebin
 	git clone https://github.com/willowgarage/task_manager.git 
 	git clone https://github.com/RobotWebTools/rosbridge_suite.git 
 	
 	cd ~/ros ; catkin_make
-    
+```
 
 TODO Move this repositories to some more appropiate place
-
-
